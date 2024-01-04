@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: auto;
+  border: 2px solid black;
+}
+
+/************************ MOBILE ***************************/
+@media only screen and (max-width: 767px) {
+  header {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  header p {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  section {
+    margin: 20px 30px 10px 40px;
+  }
+
+  .section {
+    border: 2px solid black;
+    height: auto;
+    background-color: #aaa;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  p.text {
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding: 3px 30px 3px 30px;
+    letter-spacing: 1px;
+  }
+
+  .beefText,
+  .sushiText {
+    padding: 0 45px !important;
+  }
+
+  .content-block {
+    padding: 10px;
+  }
+
+  .yellowBackground {
+    background-color: #e5d198;
+    float: right;
+  }
+
+  .redBackground {
+    background-color: #c14543;
+    float: right;
+  }
+
+  .pinkBackground {
+    background-color: #d59898;
+    float: right;
+  }
+
+  .footerContainer {
+    height: 20px;
+    background-color: #aaa;
+    position: relative;
+    bottom: 0px;
+    margin-top: 30px;
+    border-top: 2px solid black;
+  }
+}
+
+/*********************************** TABLET ******************************/
+
+@media only screen and (min-width: 768px) {
+  header {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  header p {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .flexRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    justify-content: center;
+    margin: 30px 20px 10px 20px;
+    align-items: center;
+  }
+
+  .flexColumn {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section {
+    border: 2px solid black;
+    height: auto;
+    background-color: #aaa;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .section-1 {
+    max-width: 48.8%;
+  }
+
+  .section-2 {
+    max-width: 48.5%;
+  }
+
+  .section-3 {
+    margin-top: 20px;
+  }
+
+  p.text {
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding: 3px 30px 3px 30px;
+    letter-spacing: 1px;
+  }
+
+  .beefText,
+  .sushiText {
+    padding: 3px 45px !important;
+  }
+
+  .content-block {
+    padding: 10px;
+  }
+
+  .yellowBackground {
+    background-color: #e5d198;
+    float: right;
+  }
+
+  .redBackground {
+    background-color: #c14543;
+    float: right;
+  }
+
+  .pinkBackground {
+    background-color: #d59898;
+    float: right;
+  }
+
+  .footerContainer {
+    height: 20px;
+    background-color: #aaa;
+    position: relative;
+    bottom: 0px;
+    margin-top: 30px;
+    border-top: 2px solid black;
+  }
+}
+
+/************************************* DESKTOP ******************************/
+@media only screen and (min-width: 992px) {
+  header p {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .flexRow {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .section-1 {
+    margin-right: 0px;
+  }
+
+  .section-2 {
+    margin-left: 0px;
+  }
+
+  .section-3 {
+    margin-top: 0px;
+  }
+
+  .footerContainer {
+    height: 20px;
+    background-color: #aaa;
+    position: relative;
+    bottom: 0px;
+    margin-top: 30px;
+    border-top: 2px solid black;
+  }
+}
